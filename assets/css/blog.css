@@ -6,4 +6,61 @@
 }
 .nav2{
    font-family: serif;
+position: static;
+  
+}
+.hero  {
+ background-image: url(../images/bg_2.jpg.webp);
+   height: 750px;
+   background-attachment: fixed;
+
+   background-size: cover;
+   color: white;
+   
+}
+.hero_text{
+    font-size:70px ;
+    text-align: center;
+   padding: 200px;
+   font-style: italic;
+   font-weight: bolder;
+   color: #fff;
+}
+
+.hero_button .btn{
+    background-color: #a23f25;
+    height: 50px;
+    color: white;
+    width: 120px;
+    font-weight: bold;
+
+
+}
+.hero_button{
+  margin-top: -150px;
+  margin-left: 480px;
+}
+
+.icons{
+    font-size: 80px;
+    margin-top: 60px;
+}
+.fcintro{
+    display: flex;
+    gap: 2rem;
+    line-height:2rem;
+    padding: 50px;
+   color: white;
+  
+    
+}
+#fc{
+    background-color: #b7472a;
+    display: flex;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
