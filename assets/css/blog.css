@@ -18,13 +18,16 @@ position: static;
    color: white;
    
 }
-.hero_text{
+.hero_text p {
     font-size:70px ;
     text-align: center;
    padding: 200px;
    font-style: italic;
    font-weight: bolder;
    color: #fff;
+   -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #ffffff;
 }
 
 .hero_button .btn{
@@ -63,4 +66,48 @@ position: static;
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+.subheading{
+    display: inline-block;
+    margin-bottom: 0;
+    color: #b7472a;
+    font-size: 16px;
+    font-weight: 400px;
+    font-style: italic;
+    position: relative;
+}
+.headinf-section{
+    margin: 5px;
+}
+.imagesabout{
+    height: 500px;
+    width:500px ;
+}
+.headinf-section p{
+    color: gray;
+    line-height: 30px;
+}
+.headinf-section h2{
+    font-size:40px;
+    font-weight: bold;
+    font-family: serif;
+}
+.number{
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    color: #b7472a;
+}
+.number span{
+    font-size: 400px;
+}
+.year{
+    padding: 20px 0;
+}
+.year span {
+    font-family: "Arial", sans-serif; 
+    font-size: 25px; 
+    font-weight: bold; 
+    color: #333; 
+    padding: 20px;
 }
