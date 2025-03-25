@@ -116,72 +116,80 @@ li a, .dropbtn {
     }
 }
 
-.dbox .icon {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: #b7472a;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.dbox .icon span {
-    font-size: 30px;
+.sale, .new-arrival {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
     color: #fff;
-}
-/* contactform*/
-
-.contact-wrap {
-    background: #fff;
-}
-
-
-.form-control {
-    border: none;  
-    border-bottom: 2px solid gray; 
-    border-radius: 0;
-    padding: 8px;
-    font-size: 16px;
-    background: transparent;
-    outline: none;
-    width: 100%;
-}
-
-
-
-
-
-.form-control::placeholder {
-    color: rgba(0, 0, 0, 0.5);
-    font-style: italic;
-}
-
-
-.form-group {
-    margin-bottom: 2rem;
-    
-}
-
-
-.contactForm .label {
-    color: #b7472a;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 600;
-    font-family: serif;
-}
-
-.btn.btn-primary {
-    background: #b7472a;
-    border: 1px solid #b7472a;
-    color: #fff;
-    padding: 10px 15px;
-    font-size: 16px;
     border-radius: 5px;
 }
 
-.btn.btn-primary:hover {
-    background: #a23f25;
+.sale {
+    background: #fe9801;
+}
+
+.new-arrival {
+    background: aquamarine;
+}
+
+.category {
+    font-style: italic;
+    color: #b7472a;
+    display: block;
+}
+
+.text h2 {
+    font-size: 22px;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+.price-sale {
+    color: gray;
+    font-style: italic;
+   
+}
+
+.price {
+    font-style: italic;
+    color: rgb(75, 74, 74);
+    font-weight: bold;
+}
+
+.subheading {
+    margin-top: 100px;
+}
+
+
+.block-27 ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.block-27 ul li {
+    margin: 0 5px;
+}
+
+.block-27 ul li a, 
+.block-27 ul li span {
+    color: #b7472a;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e6e6e6;
+    text-decoration: none;
+}
+
+.block-27 ul li .active {
+    background-color: #a23f25;
+    color: white;
 }
 .ftco-footer {
     font-size: 16px;
@@ -278,5 +286,3 @@ li a, .dropbtn {
         margin-right: 200px;
     }
 }
-
-
