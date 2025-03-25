@@ -3,19 +3,291 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/f453ed0a96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
     <title>Login</title>
+    
     <link rel="stylesheet" href="./assets/css/login.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Log in</h2>
-        <form>
-            <input type="text" placeholder="User name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit">Log in</button>
-            <p class="register-link">Don't have account? <a href="#">Sign Up</a></p>
-        </form>
+     <!-- qirmizi nav1 baslayir-->
+     <div class="wrap">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <p class="mb-0 phone pl-md-2 d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+00 1234 567</span>
+                        <i class="fa-brands fa-telegram"></i>
+                        <span>youremail@email.com</span>
+                    </p>
+                </div>
+                <div class="col-md d-flex justify-content-end align-items-center gap-4 mt-3">
+                    <div class="social-media">
+                        <p class="mb-0 d-flex gap-2">
+                            <a href="" class="d-flex align-items-center justify-content-center ">
+                                <i class="fa-brands fa-telegram me-2"></i>
+                            </a>
+                            <a href="" class="d-flex align-items-center justify-content-center ">
+                                <i class="fa-brands fa-telegram me-2"></i>
+                            </a>
+                            <a href="" class="d-flex align-items-center justify-content-center ">
+                                <i class="fa-brands fa-telegram me-2"></i>
+                            </a>
+                            <a href="" class="d-flex align-items-center justify-content-center ">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="reg">
+                        <p class="mb-0 d-flex gap-3 ">
+                            <a href="" class="me-3 mb-3">Sign Up</a>
+                            <a href="./login.html">Log in</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fs-3 text-light" href="#">Liquor <span
+                    class="text-secondary-emphasis">Store</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase gap-4 mb-0 text-light">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link text-light dropbtn text-align-center justify-content-center"
+                            href="javascript:void(0)">Products</a>
+                        <div class="dropdown-content">
+                            <a href="#">Products</a>
+                            <a href="#">Single Products</a>
+                            <a href="#">Cart</a>
+                            <a href="#">Checkout</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-basket-shopping py-1 text-light"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar bitdi-->
+    <!--hero start-->
+    <div class="hero_area">
+
+        <div class="hero">
+            <div class="container">
+                <div class="hero_text">
+                    <p> <span style="-webkit-text-fill-color: #fff;
+        -webkit-text-stroke-width: 0px;">Log</span>In<br><span style="-webkit-text-fill-color: #fff;
+        -webkit-text-stroke-width: 0px;"></span></p>
+
+                </div>
+               
+            </div>
+        </div>
+    </div>
+         <div class="container">
+        <div class="login-container">
+            <h2 style="color: #a23f25;">Log in</h2>
+            <form>
+                <input type="text" placeholder="User name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Log in</button>
+                <p class="register-link">Don't have account? <a href="#">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+    <footer class="ftco-footer">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2 logo">
+                            <a href="home.html" style="color: white;" >
+                                Liquor 
+                                <span style="color: gray;">Store</span>
+                            </a>
+                        </h2>
+                        <p style="line-height: 2rem;">Far far away, behind the word mountains, far from the countries.</p>
+                        <ul class="ftco-footer-social list-unstyled mt-2 d-flex gap-2">
+                            <li class="">
+                                <a href="#">
+                                    <span class="fa fa-twitter foticon" style="margin: auto;"></span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#">
+                                    <span class="fa fa-instagram foticon"></span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#">
+                                    <span class="fa fa-facebook foticon"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2">My Accounts</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" style="color: gray;line-height: 3rem;">
+                                    <span class="fa fa-chevron-right mr-2"></span>
+                                    My Account
+                                </a>
+                            </li>
+                            <li><a href="#" style="color: gray;line-height: 3rem;">
+                                <span class="fa fa-chevron-right mr-2"></span>
+                                Register
+                            </a></li>
+                            <li>
+                                <a href="#" style="color: gray; line-height: 3rem;">
+                                    <span class="fa fa-chevron-right mr-2"></span>
+                                    Log in
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="color: gray;line-height: 3rem;">
+                                    <span class="fa fa-chevron-right mr-2"></span>
+                                    My Order
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2">Information</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" style="color: gray;line-height: 3rem;">
+                                    <span class="fa fa-chevron-right mr-2"></span>
+                                    About us
+                                </a>
+                            </li>
+                            <li><a href="#" style="color: gray;line-height: 3rem;">
+                                <span class="fa fa-chevron-right mr-2"></span>
+                                Catalog
+                            </a></li>
+                            <li>
+                                <a href="#" style="color: gray; line-height: 3rem;">
+                                    <span class="fa fa-chevron-right mr-2"></span>
+                                   Cantact us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="color: gray;line-height: 3rem;">
+                                    <span class="fa fa-chevron-right mr-2"></span>
+                                   Terms &Conditions
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2">Quick Link</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" style="color: gray;line-height: 3rem;">
+                                    <span class="fa fa-chevron-right mr-2"></span>
+                                    New User
+                                </a>
+                            </li>
+                            <li><a href="#" style="color: gray;line-height: 3rem;">
+                                <span class="fa fa-chevron-right mr-2"></span>
+                                Help Center
+                            </a></li>
+                            <li>
+                                <a href="#" style="color: gray; line-height: 3rem;">
+                                    <span class="fa fa-chevron-right mr-2"></span>
+                                    Report Spam
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="color: gray;line-height: 3rem;">
+                                    <span class="fa fa-chevron-right mr-2"></span>
+                                    Faq's
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" style="color: gray;line-height: 3rem;">
+                                    <span class="icon fa fa-map marker" style="color: white;"></span>
+                                    <span style="line-height: 0/5rem;">203 Fake St.<br> Mountain View,<br> San Francisco,<br> California, USA</span>
+                                </a>
+                            </li>
+                            <li><a href="#" style="color: gray;line-height: 3rem;">
+                                <span class="icon fa fa-phone"></span>
+                                +2 392 3929 210
+                            </a></li>
+                            <li>
+                                <a href="#" style="color: gray; line-height: 3rem;">
+                                    <span class="icon fa fa-paper-plane pr-4"></span>
+                                    info@yourdomain.com
+                                </a>
+                            </li>
+                          
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-0 py-5 bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="mb-0" style="color: rgba(255,255,255,.5);">
+
+                            Copyright ©
+                            <span>2025 All rights reserved | This template is made with </span>
+                            <i class="fa fa-heart color-danger" aria-hidden="true"></i>
+                            <a href="https://colorlib.com" target="_blank" style="color: gray;">Colorlib.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+</div>
+</div>
+</footer>
 </body>
 </html>
