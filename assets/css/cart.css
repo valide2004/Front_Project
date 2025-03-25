@@ -1,0 +1,131 @@
+.social-media{
+
+    height: 30px;
+   gap: 2rem;
+    display: inline-block;
+    color: white;
+}
+.wrap{
+    background-color: #b7472a;
+    color: white;
+}
+.wrap a{
+    color: white;
+}
+.nav1{
+    background-color:#a23f25 ;
+    text-align: center;
+    justify-content: center;
+
+}
+.nav2{
+   font-family: serif;
+position: static;
+  
+}
+.hero-wrap.hero-wrap-2 .slider-text .bread {
+    position: relative;
+    color: #fff !important;
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.hero_area{
+    background-image: url(../images/bg_2.jpg.webp);
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.breadcrumbs{
+    margin-top: 280px;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color:#a23f25;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+   .hero_text p {
+       font-size:70px ;
+       text-align: center;
+      padding: 200px;
+      font-style: italic;
+      font-weight: bolder;
+      color: #fff;
+   }
+   @media (max-width: 768px) {
+    .hero_text p {
+        font-size: 8vw; 
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .hero_text p {
+        font-size: 4vw; 
+    }
+}
+@media (max-width: 480px) {
+    .hero_text p {
+        font-size: 10vw;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+      
+    }
+    .hero_text {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.dbox .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #b7472a;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.dbox .icon span {
+    font-size: 30px;
+    color: #fff;
+}
