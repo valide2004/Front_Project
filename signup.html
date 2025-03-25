@@ -8,10 +8,10 @@
 
     <script src="https://kit.fontawesome.com/f453ed0a96.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/signup.css">
+    <title>Signup</title>
     
-    <link rel="stylesheet" href="./assets/css/login.css">
+    
 </head>
 <body>
      <!-- qirmizi nav1 baslayir-->
@@ -45,7 +45,7 @@
                     </div>
                     <div class="reg">
                         <p class="mb-0 d-flex gap-3 ">
-                            <a href="/signup.html" class="me-3 mb-3">Sign Up</a>
+                            <a href="./signup.html" class="me-3 mb-3">Sign Up</a>
                             <a href="./login.html">Log in</a>
                         </p>
                     </div>
@@ -104,7 +104,7 @@
             <div class="container">
                 <div class="hero_text">
                     <p> <span style="-webkit-text-fill-color: #fff;
-        -webkit-text-stroke-width: 0px;">Log</span>In<br><span style="-webkit-text-fill-color: #fff;
+        -webkit-text-stroke-width: 0px;">Sign </span>Up<br><span style="-webkit-text-fill-color: #fff;
         -webkit-text-stroke-width: 0px;"></span></p>
 
                 </div>
@@ -113,16 +113,24 @@
         </div>
     </div>
          <div class="container">
-        <div class="login-container">
-            <h2 style="color: #a23f25;">Log in</h2>
-            <form>
-                <input type="text" placeholder="User name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-                <button type="submit">Log in</button>
-                <p class="register-link">Don't have account? <a href="#">Sign Up</a></p>
-            </form>
-        </div>
+            <div class="signup-container">
+                <h2 style="color: #a23f25;">Sign Up</h2>
+                <form>
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <select required>
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+            </div>
+            
     </div>
     <footer class="ftco-footer">
         <div class="container">

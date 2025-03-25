@@ -139,11 +139,11 @@ li a, .dropbtn {
     gap: 15px;
 }
 
-
-.login-container {
+/* Ümumi Stil */
+.signup-container {
     background: white;
     padding: 20px;
-    margin:  50px auto;
+    margin: 50px auto;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -165,7 +165,7 @@ form {
     width: 100%;
 }
 
-input {
+input, select {
     width: 80%;
     padding: 10px;
     margin: 8px 0;
@@ -173,6 +173,11 @@ input {
     border-radius: 5px;
     font-size: 14px;
     text-align: center;
+}
+
+select {
+    cursor: pointer;
+    background: white;
 }
 
 button {
@@ -190,25 +195,29 @@ button:hover {
     background-color: #b7472a;
 }
 
-.register-link {
+.login-link {
     margin-top: 10px;
     font-size: 14px;
 }
 
-.register-link a {
+.login-link a {
     color: #a23f25;
     text-decoration: none;
 }
 
-.register-link a:hover {
+.login-link a:hover {
     text-decoration: underline;
 }
+
+
+
+
 @media (min-width: 1200px) {
-    .login-container {
+    .signup-container {
         width: 450px;
         padding: 25px;
     }
-    input, button {
+    input, button, select {
         font-size: 16px;
         padding: 12px;
     }
@@ -216,24 +225,23 @@ button:hover {
 
 
 @media (max-width: 1199px) {
-    .login-container {
+    .signup-container {
         width: 350px;
         padding: 20px;
     }
-    input, button {
+    input, button, select {
         font-size: 15px;
         padding: 10px;
     }
 }
 
-
 @media (max-width: 767px) {
-    .login-container {
+    .signup-container {
         width: 300px;
         margin: 30px auto;
         padding: 15px;
     }
-    input, button {
+    input, button, select {
         font-size: 14px;
         padding: 8px;
     }
@@ -241,16 +249,18 @@ button:hover {
 
 
 @media (max-width: 479px) {
-    .login-container {
+    .signup-container {
         width: 90%;
         margin: 20px auto;
         padding: 15px;
     }
-    input, button {
+    input, button, select {
         font-size: 13px;
         padding: 7px;
     }
 }
+
+
 .ftco-footer {
     font-size: 16px;
     padding: 6em 0 0 0;
