@@ -23,11 +23,23 @@
 position: static;
   
 }
+.hero-wrap.hero-wrap-2 .slider-text .bread {
+    position: relative;
+    color: #fff !important;
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.1;
+    font-weight: 400;
+}
 .hero_area{
     background-image: url(../images/bg_2.jpg.webp);
-    height: 700px;
+    height: 400px;
     background-attachment: fixed;
     background-size: cover;
+
+}
+.breadcrumbs{
+    margin-top: 280px;
 
 }
 
@@ -68,15 +80,6 @@ li a, .dropbtn {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .hero  {
-    background-image: url(../images/bg_2.jpg.webp);
-      height: 500px;
-      background-attachment: fixed;
-   
-      background-size: cover;
-      color: white;
-      
-   }
    .hero_text p {
        font-size:70px ;
        text-align: center;
@@ -84,9 +87,6 @@ li a, .dropbtn {
       font-style: italic;
       font-weight: bolder;
       color: #fff;
-      -webkit-text-fill-color: transparent;
-       -webkit-text-stroke-width: .5px;
-       -webkit-text-stroke-color: #ffffff;
    }
    @media (max-width: 768px) {
     .hero_text p {
@@ -115,152 +115,145 @@ li a, .dropbtn {
         justify-content: center;
     }
 }
-.btn.btn-primary {
-    background: #b7472a ;
-    border: 1px solid #b7472a ;
-    color: #fff;
-   margin: auto 0;
-}
 
-.btn {
-    cursor: pointer;
-    border: 1px solid white;
-    color: white;
-    border-radius: 3px;
-    box-shadow: none ;
-    font-size: 15px;
-    font-weight: 500;
-}
-.hero_button{
-    display: flex;
-    margin: -100px auto;
-    justify-content: center; 
-    align-items: center; 
-    gap: 15px;
+.text{
+    text-align: left;
+    font-style: italic;
+    font-family: serif;
+    
 }
 
 
-.signup-container {
-    background: white;
-    padding: 20px;
-    margin: 50px auto;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.blog-entry .img {
+    width: 100%; 
+  
+    position: relative;
 }
 
-h2 {
-    margin-bottom: 15px;
+.blog-entry .img img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-input, select {
-    width: 80%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-    text-align: center;
-}
-
-select {
-    cursor: pointer;
-    background: white;
-}
-
-button {
-    width: 85%;
-    padding: 10px;
-    background-color: #a23f25;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #b7472a;
-}
-
-.login-link {
-    margin-top: 10px;
-    font-size: 14px;
-}
-
-.login-link a {
-    color: #a23f25;
-    text-decoration: none;
-}
-
-.login-link a:hover {
-    text-decoration: underline;
-}
-
 
 
 
 @media (min-width: 1200px) {
-    .signup-container {
-        width: 450px;
-        padding: 25px;
+    .blog-entry .text {
+        padding: 20px; 
     }
-    input, button, select {
-        font-size: 16px;
-        padding: 12px;
+    .blog-entry .meta p {
+        font-size: 1rem; 
+    }
+    .blog-entry .heading {
+        font-size: 1.5rem; 
+    }
+
+    
+    .blog-entry {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blog-entry .img {
+        width: 50%; 
+        height: 100%;
+    }
+
+    .blog-entry .text {
+        width: 50%; 
     }
 }
-
 
 @media (max-width: 1199px) {
-    .signup-container {
-        width: 350px;
-        padding: 20px;
+    .blog-entry .text {
+        padding: 15px; 
     }
-    input, button, select {
-        font-size: 15px;
-        padding: 10px;
+    .blog-entry .heading {
+        font-size: 1.4rem; 
     }
-}
+    .blog-entry .meta p {
+        font-size: 0.9rem; 
+    }
 
-@media (max-width: 767px) {
-    .signup-container {
-        width: 300px;
-        margin: 30px auto;
-        padding: 15px;
-    }
-    input, button, select {
-        font-size: 14px;
-        padding: 8px;
+    
+    .blog-entry {
+        display: flex;
+        flex-direction: row;
     }
 }
 
 
-@media (max-width: 479px) {
-    .signup-container {
-        width: 90%;
-        margin: 20px auto;
-        padding: 15px;
+@media (max-width: 768px) {
+    .blog-entry .img {
+        height: 200px; 
     }
-    input, button, select {
-        font-size: 13px;
-        padding: 7px;
+    .blog-entry .heading {
+        font-size: 1.2rem; 
+    }
+    .blog-entry .meta p {
+        font-size: 0.8rem; 
+    }
+    
+    .blog-entry .img {
+        width: 100%; 
+        height: 100%;
+    }
+
+    .blog-entry .text {
+        width: 100%; 
     }
 }
 
 
+@media (max-width: 576px) {
+    .blog-entry .img {
+        height:300px; 
+    }
+    .blog-entry .heading {
+        font-size: 1rem; 
+    }
+    .blog-entry .meta p {
+        font-size: 0.75rem; 
+    }
+    
+
+    .blog-entry .img {
+        width: 100%; 
+        height: 600px; 
+    }
+
+    .blog-entry .text {
+        width: 100%;
+    }
+}
+.block-27 ul {
+    display: flex; 
+    justify-content: center; 
+    padding: 0;
+}
+
+.block-27 ul li {
+    margin: 0 5px; 
+}
+
+.block-27 ul li a, 
+.block-27 ul li span {
+    color: #b7472a;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e6e6e6;
+    text-decoration: none;
+}
+
+.block-27 ul li .active {
+    background-color: #a23f25;
+    color: white;
+}
 .ftco-footer {
     font-size: 16px;
     padding: 6em 0 0 0;
