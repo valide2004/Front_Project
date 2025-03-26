@@ -446,23 +446,6 @@ li a, .dropbtn {
 }
 
 
-.sale {
-    position: absolute; 
-    background: #b7472a;
-    color: white;
-    padding: 5px 10px;
-    font-size: 14px;
-    border-radius: 5px;
-    font-weight: bold;
-    top: 0;
-    left: 3px;
-    font-size: 12px;
-    padding: 0 10px;
-    color: #fff;
-    background: #fe9801;
-    }
-
-
 
 .category {
     font-style: italic;
@@ -493,7 +476,17 @@ li a, .dropbtn {
     font-weight: bold;
 }
 
-
+.product .text .sale {
+    background: #b7472a;
+}
+.product .text .sale, .product .text .seller, .product .text .new {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #fff;
+}
 @media (max-width: 576px) {
     .product {
         text-align: center;

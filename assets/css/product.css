@@ -88,6 +88,17 @@ li a, .dropbtn {
       font-weight: bolder;
       color: #fff;
    }
+   .product .text .sale {
+    background: #b7472a;
+}
+.product .text .sale, .product .text .seller, .product .text .new {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #fff;
+}
    @media (max-width: 768px) {
     .hero_text p {
         font-size: 8vw; 

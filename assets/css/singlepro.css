@@ -159,14 +159,14 @@ li a, .dropbtn {
 a {
     color: #b7472a;
 }
-p .price{
+ .price p{
     margin-top: 0;
     margin-bottom: 2rem;
     color: gray;
 }
 .price {
     font-size: 30px;
-    color: black;
+    color:black;
     line-height: 2rem;
 }
 .btn{
